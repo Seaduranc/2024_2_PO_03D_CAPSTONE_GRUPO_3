@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-26" view-index="0" gantt-divider-location="537" resource-divider-location="300" version="3.3.3311" locale="es_ES">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="303" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="115" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="118" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="3" uid="39f40ad9d254438aa6dfc072a9737305" name="1 Inicio del proyecto" meeting="false" start="2024-08-12" duration="8" complete="0" expand="false">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <task id="4" uid="4cf44333c3e34f5fb24a819692cb527f" name="Acta de constitución" meeting="false" start="2024-08-12" duration="2" complete="0" expand="true"/>
+            <task id="6" uid="a36c3f47c4a34e778e3692da4826cb27" name="Definición de requisitos del proyecto" meeting="false" start="2024-08-14" duration="2" complete="0" expand="true"/>
+            <task id="7" uid="183d94983c514ec78641588263bcb1cb" name="Registro de interesados" meeting="false" start="2024-08-16" duration="1" complete="0" expand="true"/>
+            <task id="8" uid="a4fbfebd351a4811b956b3e893bd1706" name="Matriz de interesados" meeting="false" start="2024-08-16" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="f000a79865eb4d828e0380b6d3451bad" name="Documento de requisitos funcionales y no funcionales" meeting="false" start="2024-08-19" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="ee98d84ad4e74c1ba0b71b2c71e0c394" name="Creación del plan de proyecto y cronograma" meeting="false" start="2024-08-20" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="2561238131644de5b895d8c1a3e2e9fc" name="2 Planificación" meeting="false" start="2024-08-22" duration="10" complete="0" expand="false">
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <task id="12" uid="2034cc578f1c433b8120af85b1231433" name="EDT y diccionario EDT" meeting="false" start="2024-08-22" duration="2" complete="0" expand="true"/>
+            <task id="13" uid="357cfe72995447479dfaed948e78c6b0" name="Requerimientos" meeting="false" start="2024-08-26" duration="1" complete="0" expand="true"/>
+            <task id="14" uid="a112064efb5844cab4b25c7f9516aadd" name="Creación de Mockup para la app móvil y web" meeting="false" start="2024-08-27" duration="2" complete="0" expand="true"/>
+            <task id="15" uid="323f605299cd498f96f55a6784fcd562" name="Revisión del cronograma y aprobación de diseño" meeting="false" start="2024-08-29" duration="2" complete="0" expand="true"/>
+            <task id="16" uid="9d80240ef51a4a4a8ee4c1c7b776161c" name="Gestión de costos y presupuesto" meeting="false" start="2024-08-30" duration="2" complete="0" expand="true"/>
+            <task id="17" uid="374a232e81e14fd88ef0226b2492d784" name="Contratación de recursos adicionales" meeting="false" start="2024-09-03" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="18" uid="c5a607073ef54725bc3fd9b15d5ae9a8" name="3 Desarrollo del proyecto" meeting="false" start="2024-09-05" duration="40" complete="0" expand="false">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+            <task id="20" uid="802e1c03b792407c9fdac0101135d562" name="Desarrollo de base de datos" meeting="false" start="2024-09-05" duration="3" complete="0" expand="true"/>
+            <task id="21" uid="f52ec4610e0b43b2aea01ddd1d3b3633" name="Sprint 1: Usuarios" meeting="false" start="2024-09-10" duration="12" complete="0" expand="true"/>
+            <task id="22" uid="96272e8443f64eabad3654aa57a97d87" name="Sprint 2: Trabajos" meeting="false" start="2024-09-26" duration="10" complete="0" expand="true"/>
+            <task id="28" uid="74c2e27fd9614d8a8be9c178513144ea" name="Sprint 3: Reseñas y Gamificación" meeting="false" start="2024-10-10" duration="8" complete="0" expand="true"/>
+            <task id="29" uid="9f7887965d1e4c4c9a99d5eb2b93596a" name="Sprint 4:  Admin" meeting="false" start="2024-10-22" duration="5" complete="0" expand="true"/>
+            <task id="47" uid="10d3673f079a4a9b8cf70ceb4ca3b289" name="Sprint 5: Reajuste del Diseño Visual" meeting="false" start="2024-10-28" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="30" uid="797cfdfd06e248e899ec1ad7ce264d5c" name="4 Evaluación y control / Prueba y ajuste" meeting="false" start="2024-10-31" duration="15" complete="0" expand="false">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <task id="31" uid="24bf68f9b4a24b3e8ccc53bcaf153c81" name="Control integrado de cambios" meeting="false" start="2024-10-31" duration="3" complete="0" expand="true"/>
+            <task id="32" uid="b04f4294e70b482b9185fcf367642389" name="Información, control y seguimiento" meeting="false" start="2024-11-05" duration="2" complete="0" expand="true"/>
+            <task id="33" uid="daae3d0329e940eca83bd84847eecf44" name="Actas de reunión" meeting="false" start="2024-11-07" duration="2" complete="0" expand="true"/>
+            <task id="34" uid="166f2ea487c8426993c34410c515b6f8" name="Informe de aplicación de pruebas" meeting="false" start="2024-11-11" duration="2" complete="0" expand="true"/>
+            <task id="35" uid="cf4844017d2b4eb19cdaa585ab7b5ae7" name="Pruebas unitarias y de integración" meeting="false" start="2024-11-13" duration="2" complete="0" expand="true"/>
+            <task id="36" uid="94bf600c06c343909c12997135ee284e" name="Prueba de usuario y ajuste" meeting="false" start="2024-11-14" duration="2" complete="0" expand="true"/>
+            <task id="37" uid="8bf13c63dada45cbbc01b5376818e86a" name="Aplicación de prueba" meeting="false" start="2024-11-18" duration="1" complete="0" expand="true"/>
+            <task id="38" uid="de8f53b535b64bc3af35241c6f7fe185" name="Corrección de errores" meeting="false" start="2024-11-19" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="39" uid="9bc90f62bad14bd9ae317ead76b979a2" name="5 Cierre del proyecto" meeting="false" start="2024-11-21" duration="11" complete="0" expand="false">
+            <task id="40" uid="9ec77eb696c144c5b10a4ae9856842a6" name="Actas de reunión" meeting="false" start="2024-11-21" duration="2" complete="0" expand="true"/>
+            <task id="41" uid="413879915a1f47858cf4ac97b01b5e4a" name="Plan de soporte y mantenimiento" meeting="false" start="2024-11-25" duration="2" complete="0" expand="true"/>
+            <task id="42" uid="f4c5fd0bf1eb490bb9c709caa8bd54df" name="Preparación del entorno de producción" meeting="false" start="2024-11-27" duration="2" complete="0" expand="true"/>
+            <task id="43" uid="e1a4ea515d2747488a43dd8c9da12818" name="Despluegue de la aplicación" meeting="false" start="2024-11-29" duration="1" complete="0" expand="true"/>
+            <task id="44" uid="13b5e1663fe040af8d0616bd58e4a356" name="Capacitación y entrega al cliente" meeting="false" start="2024-12-02" duration="1" complete="0" expand="true"/>
+            <task id="45" uid="1f89abe3716b4dbc8c84de19c9370df7" name="Informe de cierre" meeting="false" start="2024-12-03" duration="1" complete="0" expand="true"/>
+            <task id="46" uid="e0132aaebd714b10859f2cd0cac688bd" name="Acta de cierre del proyecto" meeting="false" start="2024-12-04" duration="2" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="felipe urbina" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
